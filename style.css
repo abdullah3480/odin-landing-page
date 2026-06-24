@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    flex: 1;
+    color: aqua;
+    margin: 0;
+
+}
+
+.section1{
+    border-color: black;
+    border: 10px;
+    display: flex;
+    color: aqua;
+    height: 100px;
+    background-color: #1F2937;
+    margin: 0;
+    flex-grow:1 ;
+    height: 600px;
+    
+}
+
+.header{
+    display: flex;
+    flex: 1;
+    height: 80px;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 24px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+.links{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    flex-direction: row;
+}
